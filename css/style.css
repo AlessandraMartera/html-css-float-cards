@@ -55,8 +55,9 @@ section {
 }
 
 .text {
-    text
     text-align: left;
+    line-height: calc(100px/3);
+    vertical-align: middle;
 }
 
 .email {
