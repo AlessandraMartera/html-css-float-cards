@@ -1,0 +1,16 @@
+/* general settings */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+/* Settings DEBUG */
+.container {
+    height: 500px;
+    border: 1px solid black;
+}
