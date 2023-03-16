@@ -29,6 +29,7 @@ img {
 header{
     margin: 50px;
 }
+
 h1 {
     color: #ff3176;
     text-align: center;
@@ -42,8 +43,8 @@ section {
 
 .card {
     width: calc(100%/3);
-    float: left;
     padding: 4px;
+    float: left;
 }
 
 .card-credits {
@@ -53,8 +54,12 @@ section {
     text-align: left;
 }
 
-a {
-    text-decoration: none;
+.text {
+    text
+    text-align: left;
+}
+
+.email {
     color: #00bfff;
 }
 
@@ -62,4 +67,8 @@ a {
 /* Settings DEBUG */
 .card {
     border: 1px solid black
+}
+
+.text {
+    border: #ff3176 2px solid;
 }
