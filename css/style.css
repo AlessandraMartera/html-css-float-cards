@@ -41,36 +41,24 @@ section {
     margin: 20px auto;
 }
 
-.card {
-    width: calc(100%/3);
-    padding: 4px;
-    float: left;
-}
-
 .card-credits {
+    width: calc((100%/3) - 40px);
+    min-width: 20%;
     background-color: #000022;
-    height: 100px;
-    color: aliceblue;
-    text-align: left;
+    float: left;
+    margin: 20px;
 }
 
 .text {
-    margin-left: 120px;
+    color: aliceblue;
     text-align: left;
     line-height: 33px;
     vertical-align: middle;
+    margin-left: 15px;
+    float: left;
+    min-width: 180px;
 }
 
 .email {
     color: #00bfff;
-}
-
-
-/* Settings DEBUG */
-.card {
-    border: 1px solid black
-}
-
-.text {
-    border: #ff3176 2px solid;
 }
