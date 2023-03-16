@@ -4,13 +4,43 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
 .container {
     width: 80%;
-    margin: 15px auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clearfix::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+/* header */
+header{
+    margin: 50px;
+}
+h1 {
+    color: #d87093;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* main */
+section {
+    margin: 20px auto;
 }
 
 /* Settings DEBUG */
 .container {
     height: 500px;
-    border: 1px solid black;
+    border: 4px solid black;
+}
+
+section {
+    border: 1px solid violet;
 }
